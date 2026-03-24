@@ -1,16 +1,30 @@
-# React + Vite
+# Campus History Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This React app displays a set of campus buildings as interactive cards. Users can:
+- Hover over a card to enlarge it
+- Click a card to focus on it
+- Click again to flip it and see details
+- Press × to close a card
 
-Currently, two official plugins are available:
+## Running the Project
+1. Clone the repo:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+   git clone https://github.com/ananyamhetras/Campus_history_cards
 
-## React Compiler
+2. Install dependencies:
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Run locally:
+npm run dev
 
-## Expanding the ESLint configuration
+4. The app will open at http://localhost:5173
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Sample Use Cases
+- A student exploring campus history can click through each card to read facts.
+- Heritage Conservation Enthusiasts
+
+## Future Improvements
+-Add animations for smoother card transitions
+-Include more buildings and images
+-Make responsive for mobile screens
